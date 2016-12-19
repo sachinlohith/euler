@@ -5,14 +5,13 @@ What is the smallest positive number that is evenly divisible by all of the numb
 Ans: 232792560
 '''
 
-def divisibleList2(number, factors):
-    return all(map(lambda x: number%x == 0, factors))
+import util
 
 def solution():
     numbers = range(11, 21)
     result = 2520
     while True:
-        if divisibleList2(result, numbers):
+        if divisibleByWholeList(result, numbers):
             return result
         result += 20
 
