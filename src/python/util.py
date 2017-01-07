@@ -27,3 +27,4 @@ def genPrimes():
                 witnessMap.setdefault(prime + composite, []).append(prime)
             del witnessMap[composite]
         composite += 1
+
