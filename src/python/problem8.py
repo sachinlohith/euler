@@ -48,6 +48,10 @@ NUMBER = "73167176531330624919225119674426574742355349194934969835" \
 
 
 def solution():
+    '''
+    Returns:
+        Thirteen adjacent digits of greatest product of the 1000-digit number 
+    '''
     result = []
     for index in xrange(0, len(NUMBER)-13):
         result.append(reduce(lambda x, y: x*y,

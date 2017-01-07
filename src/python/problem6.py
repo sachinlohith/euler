@@ -16,6 +16,10 @@ natural numbers and the square of the sum.
 
 
 def solution():
+    '''
+    Returns:
+        Difference between the sum of the squares of the first 100 natural number and the square of the sum 
+    '''
     return abs(sum(range(1, 101))**2 - sum(x**2 for x in range(1, 101)))
 
 

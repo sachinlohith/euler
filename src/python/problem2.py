@@ -9,6 +9,10 @@ four million, find the sum of the even-valued terms.
 
 
 def solution():
+    '''
+    Returns:
+        Sum of even-valued fibonacci terms below 4 million
+    '''
     result = [1, 2]
     while result[-1] < 4000000:
         result.append(result[-1] + result[-2])

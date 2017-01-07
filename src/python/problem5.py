@@ -11,6 +11,11 @@ import util
 
 
 def solution():
+    '''
+    Returns:
+        Smallest +ve number that is evenly divisible by all numbers 
+        from 1 to 20
+    '''
     numbers = range(11, 21)
     result = 2520
     while True:

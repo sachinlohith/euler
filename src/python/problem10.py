@@ -8,6 +8,10 @@ from util import genPrimes
 
 
 def solution():
+    '''
+    Returns:
+        sum of all primes below two million
+    '''
     primes = [2]
     prime = genPrimes()
     while primes[-1] < 2000000:

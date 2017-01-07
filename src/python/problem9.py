@@ -10,6 +10,10 @@ Find the product abc.
 
 
 def solution():
+    '''
+    Returns:
+        Pythagorean triplet for which a + b + c = 1000
+    '''
     num1 = 1
     while num1 <= 998:
         num2 = 1

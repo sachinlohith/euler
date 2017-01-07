@@ -7,6 +7,11 @@ Find the largest palindrome made from the product of two 3-digit numbers.
 
 
 def solution():
+    '''
+    Returns:
+        largest palindrome mode from the product of two 
+        3-digit numbers
+    '''
     num1, num2 = 999, 999
     result = []
     while num1 >= 100:

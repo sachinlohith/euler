@@ -17,6 +17,10 @@ def nextPrime(primes):
 
 
 def solution():
+    '''
+    Returns:
+        10,001st prime
+    '''
     primes = [2, 3]
     count = 2
     while count < 10001:

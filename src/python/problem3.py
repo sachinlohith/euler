@@ -8,6 +8,10 @@ import util
 
 
 def solution():
+    '''
+    Returns:
+        Largest prime factor of 600851475143
+    '''
     number = 600851475143
     if number % 2 == 0:
         factors = [2]

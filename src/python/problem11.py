@@ -71,6 +71,9 @@ def product(indices):
     return prod
 
 def solution():
+    '''
+    Finds the max product of 4 continous elements in a 20*20 grid
+    '''
     result = set([])
     for x in xrange(len(grid)):
         for y in xrange(len(grid)):

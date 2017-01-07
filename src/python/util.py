@@ -28,3 +28,17 @@ def genPrimes():
             del witnessMap[composite]
         composite += 1
 
+def divisorGenerator(n):
+    '''
+    Generate divisors for a given number
+    '''
+
+    import math
+    large_divisors = []
+    for i in xrange(1, int(math.sqrt(n) + 1)):
+        if n % i == 0:
+            yield i
+            if i*i != n:
+                large_divisors.append(n / i)
+    for divisor in reversed(large_divisors):
+        yield divisor
